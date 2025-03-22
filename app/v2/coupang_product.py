@@ -1,8 +1,9 @@
 import logging
 import requests
-import yaml
 import time
 import random
+
+from utils import load_config
 
 # 로깅 설정 (디버깅용)
 # http_client.HTTPConnection.debuglevel = 1
@@ -16,8 +17,7 @@ def coupang_product():
     """
     
     # YAML 설정 파일 불러오기
-    with open('configs/coupang.yaml', 'r', encoding='utf-8') as f:
-        config = yaml.safe_load(f)
+    config = load_config('configs/coupang.yaml')
     
     # 설정 파일에서 URL 목록과 요청 설정 가져오기
     product_url_list = config['product_urls']
@@ -78,6 +78,3 @@ def coupang_product():
         logger.info(f"반복 {count+1}/5 완료, 현재 상태 - 성공: {success}, 실패: {fail}")
 
     logger.info(f"모든 작업 완료 - 성공: {success}, 실패: {fail}")
-
-if __name__ == "__main__":
-    coupang_product()
