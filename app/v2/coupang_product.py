@@ -3,7 +3,7 @@ import requests
 import time
 import random
 
-from utils import load_config
+from utils import load_config, sleep_with_jitter
 
 # 로깅 설정 (디버깅용)
 # http_client.HTTPConnection.debuglevel = 1
@@ -62,9 +62,7 @@ def coupang_product():
                     logger.warning(f"URL 접근 실패: {url}, 상태 코드: {status_code}")
                 
                 # 요청 간 임의 지연 시간 추가
-                delay = random.uniform(min_delay, max_delay)
-                logger.info(f"{delay:.2f}초 대기 중...")
-                time.sleep(delay)
+                sleep_with_jitter(min_delay, max_delay)
                 
             except requests.RequestException as e:
                 fail += 1
