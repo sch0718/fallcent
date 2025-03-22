@@ -20,40 +20,37 @@ def get_user_agents(config_path: str) -> List[str]:
     config = load_config(config_path)
     return config.get("user_agents", [])
 
-def load_config(config_path: str) -> Dict:
-    """설정 파일을 로드합니다.
-    
-    Args:
-        config_path: 설정 파일 경로 (상대 또는 절대 경로)
-        
-    Returns:
-        설정 정보가 포함된 딕셔너리
-    """
+def load_config(config_path: str) -> Dict[str, Any]:
+    """설정 파일을 로드합니다."""
     try:
-        # 상대 경로가 제공된 경우 절대 경로로 변환
-        if not os.path.isabs(config_path):
-            # 프로젝트 루트 디렉토리를 기준으로 경로 해석
+        # config_path가 절대 경로인지 확인
+        if os.path.isabs(config_path):
+            # 확장자가 없는 경우 .yaml 추가
+            if not os.path.splitext(config_path)[1]:
+                config_path = f"{config_path}.yaml"
+        else:
+            # 상대 경로인 경우 프로젝트 루트 디렉토리 찾기
             project_root = find_project_root()
-            absolute_path = os.path.join(project_root, config_path)
-            if os.path.exists(absolute_path):
-                config_path = absolute_path
+            
+            # .yaml 확장자가 이미 포함되어 있는지 확인
+            if config_path.endswith('.yaml'):
+                config_path = os.path.join(project_root, 'configs', config_path)
             else:
-                logger.warning(f"설정 파일을 찾을 수 없습니다: {absolute_path}")
-                
-        with open(config_path, 'r', encoding='utf-8') as file:
-            config = yaml.safe_load(file)
+                config_path = os.path.join(project_root, 'configs', f"{config_path}.yaml")
+        
+        if not os.path.exists(config_path):
+            logger.warning(f"설정 파일을 찾을 수 없습니다: {config_path}")
+            return None
+            
+        # YAML 파일 로드
+        with open(config_path, 'r', encoding='utf-8') as f:
+            config = yaml.safe_load(f)
+            
         return config
     except Exception as e:
         logger.error(f"설정 파일 로드 중 오류 발생: {e}")
-        # 기본 설정 반환
-        return {
-            "reels_urls": [], 
-            "api_settings": {"request_delay": {"min": 1, "max": 3}},
-            "user_agents": [
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-            ]
-        }
-    
+        return None
+
 def get_random_user_agent(config_path: str) -> str:
     """무작위 사용자 에이전트를 반환합니다."""
     user_agents = get_user_agents(config_path)
