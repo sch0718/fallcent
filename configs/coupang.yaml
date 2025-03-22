@@ -1,0 +1,30 @@
+product_urls:
+  - "https://www.coupang.com/vp/products/8134993903?itemId=23107127826&vendorItemId=90140409719&isAddedCart="
+  - "https://www.coupang.com/vp/products/1402935103?itemId=2430415008&vendorItemId=70424371600&isAddedCart="
+  - "https://www.coupang.com/vp/products/35160?itemId=95475&vendorItemId=3000043830&isAddedCart="
+  - "https://www.coupang.com/vp/products/6570687310?itemId=14311790776&vendorItemId=76365551329&isAddedCart="
+  - "https://www.coupang.com/vp/products/7881685402?itemId=21556445470&vendorItemId=88609037317&isAddedCart="
+  - "https://www.coupang.com/vp/products/7881685402?itemId=21556445521&vendorItemId=88609037339&isAddedCart="
+  - "https://www.coupang.com/vp/products/8215768245?itemId=20153239950&vendorItemId=4408655485&isAddedCart="
+  - "https://www.coupang.com/vp/products/7104553961?itemId=17743114177&vendorItemId=4949572312&isAddedCart="
+  - "https://www.coupang.com/vp/products/2534209?itemId=295155&vendorItemId=3000205577&isAddedCart="
+  - "https://www.coupang.com/vp/products/76797046?itemId=309693749&vendorItemId=3608104643&isAddedCart="
+  - "https://www.coupang.com/vp/products/4697181411?itemId=5911958981&vendorItemId=73210037770&isAddedCart="
+  - "https://www.coupang.com/vp/products/1354272731?itemId=18321582111&vendorItemId=70378337137&isAddedCart="
+  - "https://www.coupang.com/vp/products/52806818?itemId=17603915445&vendorItemId=3443226789&isAddedCart="
+  - "https://www.coupang.com/vp/products/7737894843?itemId=20993575773&vendorItemId=88057925382&isAddedCart="
+  - "https://www.coupang.com/vp/products/7214920202?itemId=18268502254&vendorItemId=70951912381&isAddedCart="
+  - "https://www.coupang.com/vp/products/7960595857?itemId=22008246246&vendorItemId=89055701569&isAddedCart="
+  - "https://www.coupang.com/vp/products/7811643676?itemId=21191126485&vendorItemId=88252472862&isAddedCart="
+  - "https://www.coupang.com/vp/products/2638550?itemId=8797681&vendorItemId=3265972233&isAddedCart="
+  - "https://www.coupang.com/vp/products/8120995148?itemId=23287621911&vendorItemId=85192464125&isAddedCart="
+  - "https://www.coupang.com/vp/products/7802303465?itemId=21134271595&vendorItemId=88195967449&isAddedCart="
+request_settings:
+  retry:
+    total: 5
+    status_forcelist: [429, 500, 502, 503, 504]
+    backoff_factor: 2
+  delay_range:
+    min: 2
+    max: 5
+  sessions_count: 3

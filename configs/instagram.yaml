@@ -1,0 +1,17 @@
+reels_urls:
+  - "https://www.instagram.com/reel/DAiOanto5rM/?igsh=MW1yYnYzdWgwZ3VhNw=="
+  - "https://www.instagram.com/reel/DAqSjKtS1Gl/?igsh=MTZuMHNwdDM1eThieg=="
+  - "https://www.instagram.com/reel/DA-oBCANMiz/?igsh=MWl5ZGF3aDh1b3R1NQ=="
+  - "https://www.instagram.com/reel/DBAPulKvjrU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+  - "https://www.instagram.com/reel/DBTOH_uS34z/?igsh=bHN0cjJiYWJwMDFv"
+  - "https://www.instagram.com/reel/DBbPfdPvEZT/?igsh=NWMwaTRmZTJqZTZx"
+  - "https://www.instagram.com/reel/DB8t87sOhbq/?igsh=dm9tb3JqOTFteG9x"
+  - "https://www.instagram.com/reel/DCY0haFShru/?igsh=MTZ3ZWViZWprdWk5aQ=="
+  - "https://www.instagram.com/reel/DCY-rmyxkQQ/?igsh=MW5iZmlwN2RicXdieA=="
+  - "https://www.instagram.com/reel/DCjVxyZS0Wq/?igsh=MTUwZG9lc2F4aHBqYw=="
+  - "https://www.instagram.com/reel/DCydv9PJHDR/?igsh=ZXh0dnk2bjRwNHA0"
+api_settings:
+  query_hash: "b3055c01b4b222b8a47dc12b090e4e64"
+  request_delay:
+    min: 1
+    max: 3
