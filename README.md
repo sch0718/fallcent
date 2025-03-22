@@ -1,7 +1,19 @@
 # 폴센트 코딩 테스트
 
 ## 프로젝트 소개
+
+> 여기에 작성된 코드들은 다음과 같은 환경에서 작성되었음을 알려드립니다.  
+> - IDE: Curosr
+>   - AI의 도움을 받아 코드를 작성했습니다.
+>   - claude-3.7-sonnet 모델을 사용하였습니다.
+>   - Agent와 MCP를 최대한 활용하였습니다.
+
 이 프로젝트는 쿠팡 상품 크롤링과 인스타그램 릴스 조회수 추출을 위한 두 가지 주요 기능을 포함하고 있습니다.
+
+- [문제 보기](./TEST.md)
+
+- [삽질 보기](./TROUBLE_SHOOTING.md)
+
 
 ## 설치 방법
 
@@ -39,15 +51,22 @@ poetry shell
 poetry install
 
 # 가상 환경에서 스크립트 실행
-poetry run python app/main.py coupang_product   # 쿠팡 상품 크롤링 실행
-poetry run python app/main.py instagram_reels   # 인스타그램 릴스 조회수 추출 실행
+# v2 버전(기본값) 실행
+poetry run python app/main.py coupang_product     # 쿠팡 상품 크롤링 실행 (v2)
+poetry run python app/main.py instagram_reels     # 인스타그램 릴스 조회수 추출 실행 (v2)
+
+# v1 버전 실행
+poetry run python app/main.py coupang_product --version v1  # 쿠팡 상품 크롤링 v1 실행
+poetry run python app/main.py instagram_reels --version v1  # 인스타그램 릴스 조회수 추출 v1 실행
 
 # 또는 가상 환경 활성화 후 실행
 poetry shell
 
 # 가상 환경 셸에 진입한 후에는 다음과 같이 직접 실행 가능
-python app/main.py coupang_product
-python app/main.py instagram_reels
+python app/main.py coupang_product             # v2 버전(기본값)
+python app/main.py instagram_reels             # v2 버전(기본값)
+python app/main.py coupang_product --version v1 # v1 버전
+python app/main.py instagram_reels --version v1 # v1 버전
 ```
 
 ## 설정 파일
@@ -89,8 +108,14 @@ request_settings:
 프로젝트/
 ├── app/                        # 주요 애플리케이션 코드
 │   ├── main.py                 # 애플리케이션의 진입점
-│   ├── coupang_product.py      # 쿠팡 상품 크롤링 구현
-│   ├── instagram_reels.py      # 인스타그램 릴스 크롤링 구현
+│   ├── v1/                     # v1 버전 코드
+│   │   ├── __init__.py         # 패키지 초기화 파일
+│   │   ├── coupang_product.py  # 쿠팡 상품 크롤링 구현
+│   │   └── instagram_reels.py  # 인스타그램 릴스 크롤링 구현
+│   ├── v2/                     # v2 버전 코드
+│   │   ├── __init__.py         # 패키지 초기화 파일
+│   │   ├── coupang_product.py  # 쿠팡 상품 크롤링 구현 (v2)
+│   │   └── instagram_reels.py  # 인스타그램 릴스 크롤링 구현 (v2)
 ├── configs/                    # 설정 파일
 │   ├── coupang.yaml            # 쿠팡 크롤링 설정
 │   ├── instagram.yaml          # 인스타그램 설정
@@ -98,6 +123,10 @@ request_settings:
 ├── poetry.lock                 # 의존성 잠금 파일
 └── README.md                   # README 파일
 ```
+
+## 버전별 주요 차이점
+- **v1**: 문제를 잘못된 방향으로 풀었음
+- **v2**: 문제의 원래 의도대로 다시 작성
 
 ## 의존성 패키지
 - Python 3.10 이상

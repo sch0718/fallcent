@@ -28,3 +28,4 @@ request_settings:
     min: 2
     max: 5
   sessions_count: 3
+  timeout: 1

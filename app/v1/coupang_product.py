@@ -496,4 +496,4 @@ def coupang_product():
     total_requests = success + fail
     success_rate = (success / total_requests * 100) if total_requests > 0 else 0
     logger.info(f"최종 결과: 성공: {success}, 실패: {fail}, 성공률: {success_rate:.2f}%")
-    print(f"최종 결과: 성공: {success}, 실패: {fail}, 성공률: {success_rate:.2f}%")
+    print(f"최종 결과: 성공: {success}, 실패: {fail}, 성공률: {success_rate:.2f}%") 

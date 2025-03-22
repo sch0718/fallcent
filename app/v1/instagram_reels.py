@@ -298,4 +298,4 @@ def instagram_reels():
         print(f"조회수: {views}")
         print("-" * 50)
     
-    return views_results
+    return views_results 

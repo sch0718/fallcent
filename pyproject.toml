@@ -26,7 +26,7 @@ package-mode = false
 name = "fallcent"
 version = "0.1.0"
 description = "웹 크롤링 프로젝트"
-authors = ["신춘호 <"sch0718@naver.com>"]
+authors = ["신춘호 <sch0718@naver.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
