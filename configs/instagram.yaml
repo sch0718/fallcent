@@ -19,7 +19,7 @@ login_settings:
   password: "passw0rd)&!*" # 비밀번호 입력
   two_factor_enabled: false # 2단계 인증 사용 여부
   two_factor_method: "sms" # sms 또는 app
-  login_required: false # true: 반드시 로그인 필요, false: 로그인 시도 후 실패해도 계속 진행
+  login_required: true # true: 반드시 로그인 필요, false: 로그인 시도 후 실패해도 계속 진행
 user_agents:
   - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
   - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Safari/605.1.15"
