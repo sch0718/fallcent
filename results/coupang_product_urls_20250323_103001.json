@@ -1,0 +1,502 @@
+[
+  {
+    "url": "https://www.coupang.com/vp/products/8134993903?itemId=23107127826&vendorItemId=90140409719&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/1402935103?itemId=2430415008&vendorItemId=70424371600&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/35160?itemId=95475&vendorItemId=3000043830&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/6570687310?itemId=14311790776&vendorItemId=76365551329&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7881685402?itemId=21556445470&vendorItemId=88609037317&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7881685402?itemId=21556445521&vendorItemId=88609037339&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/8215768245?itemId=20153239950&vendorItemId=4408655485&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7104553961?itemId=17743114177&vendorItemId=4949572312&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/2534209?itemId=295155&vendorItemId=3000205577&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/76797046?itemId=309693749&vendorItemId=3608104643&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/4697181411?itemId=5911958981&vendorItemId=73210037770&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/1354272731?itemId=18321582111&vendorItemId=70378337137&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/52806818?itemId=17603915445&vendorItemId=3443226789&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7737894843?itemId=20993575773&vendorItemId=88057925382&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7214920202?itemId=18268502254&vendorItemId=70951912381&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7960595857?itemId=22008246246&vendorItemId=89055701569&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7811643676?itemId=21191126485&vendorItemId=88252472862&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/2638550?itemId=8797681&vendorItemId=3265972233&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/8120995148?itemId=23287621911&vendorItemId=85192464125&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7802303465?itemId=21134271595&vendorItemId=88195967449&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/8134993903?itemId=23107127826&vendorItemId=90140409719&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/1402935103?itemId=2430415008&vendorItemId=70424371600&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/35160?itemId=95475&vendorItemId=3000043830&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/6570687310?itemId=14311790776&vendorItemId=76365551329&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7881685402?itemId=21556445470&vendorItemId=88609037317&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7881685402?itemId=21556445521&vendorItemId=88609037339&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/8215768245?itemId=20153239950&vendorItemId=4408655485&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7104553961?itemId=17743114177&vendorItemId=4949572312&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/2534209?itemId=295155&vendorItemId=3000205577&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/76797046?itemId=309693749&vendorItemId=3608104643&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/4697181411?itemId=5911958981&vendorItemId=73210037770&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/1354272731?itemId=18321582111&vendorItemId=70378337137&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/52806818?itemId=17603915445&vendorItemId=3443226789&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7737894843?itemId=20993575773&vendorItemId=88057925382&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7214920202?itemId=18268502254&vendorItemId=70951912381&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7960595857?itemId=22008246246&vendorItemId=89055701569&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7811643676?itemId=21191126485&vendorItemId=88252472862&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/2638550?itemId=8797681&vendorItemId=3265972233&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/8120995148?itemId=23287621911&vendorItemId=85192464125&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7802303465?itemId=21134271595&vendorItemId=88195967449&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/8134993903?itemId=23107127826&vendorItemId=90140409719&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/1402935103?itemId=2430415008&vendorItemId=70424371600&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/35160?itemId=95475&vendorItemId=3000043830&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/6570687310?itemId=14311790776&vendorItemId=76365551329&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7881685402?itemId=21556445470&vendorItemId=88609037317&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7881685402?itemId=21556445521&vendorItemId=88609037339&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/8215768245?itemId=20153239950&vendorItemId=4408655485&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7104553961?itemId=17743114177&vendorItemId=4949572312&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/2534209?itemId=295155&vendorItemId=3000205577&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/76797046?itemId=309693749&vendorItemId=3608104643&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/4697181411?itemId=5911958981&vendorItemId=73210037770&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/1354272731?itemId=18321582111&vendorItemId=70378337137&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/52806818?itemId=17603915445&vendorItemId=3443226789&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7737894843?itemId=20993575773&vendorItemId=88057925382&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7214920202?itemId=18268502254&vendorItemId=70951912381&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7960595857?itemId=22008246246&vendorItemId=89055701569&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7811643676?itemId=21191126485&vendorItemId=88252472862&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/2638550?itemId=8797681&vendorItemId=3265972233&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/8120995148?itemId=23287621911&vendorItemId=85192464125&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7802303465?itemId=21134271595&vendorItemId=88195967449&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/8134993903?itemId=23107127826&vendorItemId=90140409719&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/1402935103?itemId=2430415008&vendorItemId=70424371600&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/35160?itemId=95475&vendorItemId=3000043830&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/6570687310?itemId=14311790776&vendorItemId=76365551329&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7881685402?itemId=21556445470&vendorItemId=88609037317&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7881685402?itemId=21556445521&vendorItemId=88609037339&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/8215768245?itemId=20153239950&vendorItemId=4408655485&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7104553961?itemId=17743114177&vendorItemId=4949572312&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/2534209?itemId=295155&vendorItemId=3000205577&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/76797046?itemId=309693749&vendorItemId=3608104643&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/4697181411?itemId=5911958981&vendorItemId=73210037770&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/1354272731?itemId=18321582111&vendorItemId=70378337137&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/52806818?itemId=17603915445&vendorItemId=3443226789&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7737894843?itemId=20993575773&vendorItemId=88057925382&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7214920202?itemId=18268502254&vendorItemId=70951912381&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7960595857?itemId=22008246246&vendorItemId=89055701569&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7811643676?itemId=21191126485&vendorItemId=88252472862&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/2638550?itemId=8797681&vendorItemId=3265972233&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/8120995148?itemId=23287621911&vendorItemId=85192464125&isAddedCart=",
+    "status_code": null,
+    "error": "HTTPSConnectionPool(host='www.coupang.com', port=443): Read timed out. (read timeout=1)"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7802303465?itemId=21134271595&vendorItemId=88195967449&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/8134993903?itemId=23107127826&vendorItemId=90140409719&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/1402935103?itemId=2430415008&vendorItemId=70424371600&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/35160?itemId=95475&vendorItemId=3000043830&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/6570687310?itemId=14311790776&vendorItemId=76365551329&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7881685402?itemId=21556445470&vendorItemId=88609037317&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7881685402?itemId=21556445521&vendorItemId=88609037339&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/8215768245?itemId=20153239950&vendorItemId=4408655485&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7104553961?itemId=17743114177&vendorItemId=4949572312&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/2534209?itemId=295155&vendorItemId=3000205577&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/76797046?itemId=309693749&vendorItemId=3608104643&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/4697181411?itemId=5911958981&vendorItemId=73210037770&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/1354272731?itemId=18321582111&vendorItemId=70378337137&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/52806818?itemId=17603915445&vendorItemId=3443226789&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7737894843?itemId=20993575773&vendorItemId=88057925382&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7214920202?itemId=18268502254&vendorItemId=70951912381&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7960595857?itemId=22008246246&vendorItemId=89055701569&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7811643676?itemId=21191126485&vendorItemId=88252472862&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/2638550?itemId=8797681&vendorItemId=3265972233&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/8120995148?itemId=23287621911&vendorItemId=85192464125&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  },
+  {
+    "url": "https://www.coupang.com/vp/products/7802303465?itemId=21134271595&vendorItemId=88195967449&isAddedCart=",
+    "status_code": 403,
+    "error": "URL 접근 실패"
+  }
+]
