@@ -756,3 +756,4 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,pycharm+all,jupyternotebooks,eclipse,intellij+all,webstorm+all,macos,windows,linux,vim,git,virtualenv,emacs,python,node,react
 
 ## Customize
+debug/

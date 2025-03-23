@@ -198,7 +198,7 @@ def instagram_reels() -> List[Dict[str, Any]]:
         logger.error(f"전체 처리 중 오류 발생: {e}")
         return None
 
-def login_instagram(session, login_settings, user_agents, referrers, timeout, retry_delay):
+def login_instagram(session, login_settings, user_agents, referrers, timeout, retry_delay) -> bool:
     """인스타그램에 로그인합니다."""
     try:
         username = login_settings.get("username")
@@ -285,6 +285,8 @@ def login_instagram(session, login_settings, user_agents, referrers, timeout, re
         
        # 응답 확인
         response_data = login_response.json()
+
+        logger.info(f"로그인 응답: {response_data}")
         
         # 2단계 인증 필요한 경우
         if response_data.get("two_factor_required", False) and two_factor_enabled:
@@ -329,7 +331,7 @@ def login_instagram(session, login_settings, user_agents, referrers, timeout, re
             logger.info("인스타그램 로그인 성공.")
             return True
         else:
-            logger.error(f"로그인 실패: {response_data.get('message', '알 수 없는 오류')}")
+            logger.error(f"로그인 실패: {response_data.get('error_type', '알 수 없는 오류')}")
             return False
     
     except Exception as e:

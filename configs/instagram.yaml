@@ -15,8 +15,8 @@ request_delay:
   max: 3
 login_settings:
   enabled: true
-  username: "" # 사용자 이름 또는 이메일 입력
-  password: "" # 비밀번호 입력
+  username: "fright0718@gmail.com" # 사용자 이름 또는 이메일 입력
+  password: "passw0rd)&!*" # 비밀번호 입력
   two_factor_enabled: false # 2단계 인증 사용 여부
   two_factor_method: "sms" # sms 또는 app
   login_required: false # true: 반드시 로그인 필요, false: 로그인 시도 후 실패해도 계속 진행
