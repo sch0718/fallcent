@@ -9,4 +9,4 @@
 
 2. 인스타그램 릴스 조회수 가져오기
 
-> selenium과 proxy는 지양
+> ⚠️ **selenium과 proxy는 지양** ⚠️
