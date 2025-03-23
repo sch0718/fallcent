@@ -1,8 +1,8 @@
 import argparse
-from app.v1.instagram_reels import instagram_reels as instagram_reels_v1
-from app.v1.coupang_product import coupang_product as coupang_product_v1
-from app.v2.instagram_reels import instagram_reels as instagram_reels_v2
-from app.v2.coupang_product import coupang_product as coupang_product_v2
+from v1.instagram_reels import instagram_reels as instagram_reels_v1
+from v1.coupang_product import coupang_product as coupang_product_v1
+from v2.instagram_reels import instagram_reels as instagram_reels_v2
+from v2.coupang_product import coupang_product as coupang_product_v2
 
 def main():
     parser = argparse.ArgumentParser(description='쿠팡 상품 크롤링 및 인스타그램 릴스 조회수 추출 도구')

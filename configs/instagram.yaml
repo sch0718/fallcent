@@ -10,8 +10,51 @@ reels_urls:
   - "https://www.instagram.com/reel/DCY-rmyxkQQ/?igsh=MW5iZmlwN2RicXdieA=="
   - "https://www.instagram.com/reel/DCjVxyZS0Wq/?igsh=MTUwZG9lc2F4aHBqYw=="
   - "https://www.instagram.com/reel/DCydv9PJHDR/?igsh=ZXh0dnk2bjRwNHA0"
-api_settings:
-  query_hash: "b3055c01b4b222b8a47dc12b090e4e64"
-  request_delay:
-    min: 1
-    max: 3
+request_delay:
+  min: 1
+  max: 3
+login_settings:
+  enabled: true
+  username: "" # 사용자 이름 또는 이메일 입력
+  password: "" # 비밀번호 입력
+  two_factor_enabled: false # 2단계 인증 사용 여부
+  two_factor_method: "sms" # sms 또는 app
+  login_required: false # true: 반드시 로그인 필요, false: 로그인 시도 후 실패해도 계속 진행
+user_agents:
+  - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+  - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Safari/605.1.15"
+  - "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0"
+  - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+  - "Mozilla/5.0 (iPhone; CPU iPhone OS 17_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/122.0.6261.89 Mobile/15E148 Safari/604.1"
+  - "Mozilla/5.0 (iPad; CPU OS 17_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
+  - "Mozilla/5.0 (Linux; Android 13; SM-S918B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36"
+  - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0"
+cookie_settings:
+  enabled: true
+  usage_headers:
+    - "instagram_csrf_token"
+    - "ig_did"
+    - "ig_nrcb"
+    - "mid"
+  save_cookies: true # 쿠키를 파일에 저장할지 여부
+  cookies_file: "instagram_cookies.json" # 쿠키 저장 파일
+parsing_settings:
+  additional_patterns:
+    - '\"play_count\":(\d+)'
+    - '\"videoViewCount\":(\d+)'
+    - '\"video_play_count\":(\d+)'
+    - '\"viewCount\":(\d+)'
+    - '\"view_count_key\":\"([^\"]+)\"'
+request_settings:
+  timeout: 30
+  max_retries: 3
+  retry_delay:
+    min: 2
+    max: 5
+  referrers:
+    - "https://www.google.com/search?q=instagram+reels"
+    - "https://www.instagram.com/explore/reels/"
+    - "https://www.instagram.com/explore/"
+    - "https://www.instagram.com/"
+    - "https://search.naver.com/search.naver?where=view&sm=tab_jum&query=인스타그램+릴스"
+    - "https://www.bing.com/search?q=instagram+reels"
